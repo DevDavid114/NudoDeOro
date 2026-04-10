@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sitio vitrina para emprendimiento de pulseras tejidas en hilo con balines de oro.">
+  <title>Nudo de Oro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container navbar">
+      <a href="./index.html" class="brand" data-brand aria-label="Ir al inicio"></a>
+      <nav aria-label="Principal">
+        <button class="menu-toggle" data-menu-toggle aria-label="Abrir menú" aria-expanded="false">☰</button>
+        <div class="nav-links" data-nav-menu>
+          <a href="#inicio">Inicio</a>
+          <a href="#productos">Más vendidos</a>
+          <a href="#confianza">Confianza</a>
+          <a href="#faq">Preguntas</a>
+          <a href="./catalogo.html">Catálogo</a>
+        </div>
+      </nav>
+      <div class="nav-actions">
+        <button class="theme-toggle" data-theme-toggle aria-label="Cambiar tema"></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy" data-reveal>
+          <span class="section-kicker">Hecho a mano con elegancia</span>
+          <h1>Pulseras tejidas que brillan con oro real.</h1>
+          <p>Una vitrina limpia y sofisticada para presentar referencias artesanales, resaltar detalles del tejido y facilitar pedidos directos por WhatsApp.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#productos">Ver más vendidos</a>
+            <a class="btn btn-secondary" href="./catalogo.html">Abrir catálogo completo</a>
+          </div>
+          <div class="hero-notes">
+            <div class="note-card">
+              <strong>18K</strong>
+              <span>Balines de oro real</span>
+            </div>
+            <div class="note-card">
+              <strong>Hecho</strong>
+              <span>Acabado artesanal</span>
+            </div>
+            <div class="note-card">
+              <strong>Directo</strong>
+              <span>Pedidos por WhatsApp</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual" data-reveal>
+          <div class="hero-card">
+            <img src="https://picsum.photos/seed/hero-jewelry-bracelet/980/1220" alt="Pulsera tejida elegante con detalles dorados" width="980" height="1220" loading="eager" decoding="async">
+            <div class="hero-badge">Diseño minimalista · Presencia premium</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="productos">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <div>
+            <span class="section-kicker">Selección principal</span>
+            <h2 class="section-title">Cuatro referencias que mejor representan la marca.</h2>
+            <p class="section-copy">Cada tarjeta muestra imagen, nombre, precio, descripción corta y acceso directo al detalle o al pedido por WhatsApp.</p>
+          </div>
+        </div>
+        <div class="products-grid" data-featured-products></div>
+        <div class="center-cta" data-reveal>
+          <a class="btn btn-primary" href="./catalogo.html">Ver catálogo completo</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="confianza">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <div>
+            <span class="section-kicker">Compra con tranquilidad</span>
+            <h2 class="section-title">Tres razones simples para generar confianza.</h2>
+          </div>
+        </div>
+        <div class="trust-grid">
+          <article class="trust-card" data-reveal>
+            <div class="trust-icon" aria-hidden="true">✦</div>
+            <h3>Oro real</h3>
+            <p>Las referencias destacan balines en oro de 18 quilates para comunicar valor y autenticidad desde el primer vistazo.</p>
+          </article>
+          <article class="trust-card" data-reveal>
+            <div class="trust-icon" aria-hidden="true">⚡</div>
+            <h3>Entrega inmediata</h3>
+            <p>La sección transmite disponibilidad rápida y atención directa para resolver pedidos o confirmar stock sin fricción.</p>
+          </article>
+          <article class="trust-card" data-reveal>
+            <div class="trust-icon" aria-hidden="true">♡</div>
+            <h3>Hechas a mano</h3>
+            <p>El tono de la marca resalta el trabajo artesanal y la posibilidad de una pieza cuidada para regalo o uso diario.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <div>
+            <span class="section-kicker">Preguntas frecuentes</span>
+            <h2 class="section-title">Respuestas breves y útiles para acompañar la compra.</h2>
+          </div>
+        </div>
+        <div class="faq-list">
+          <details class="faq-item" data-reveal>
+            <summary>¿Cómo debo cuidar la pulsera?</summary>
+            <p>Evita perfumes, cloro o productos abrasivos sobre la pieza y guárdala en un lugar seco cuando no la uses.</p>
+          </details>
+          <details class="faq-item" data-reveal>
+            <summary>¿Las pulseras son ajustables?</summary>
+            <p>Sí. El diseño usa nudo corredizo para adaptarse con comodidad a diferentes tamaños de muñeca.</p>
+          </details>
+          <details class="faq-item" data-reveal>
+            <summary>¿Puedo pedir una pulsera personalizada?</summary>
+            <p>Sí. Se puede coordinar color de hilo, número de balines o una referencia especial según disponibilidad.</p>
+          </details>
+          <details class="faq-item" data-reveal>
+            <summary>¿Qué incluye el pedido por WhatsApp?</summary>
+            <p>El botón envía un mensaje predeterminado con el nombre del producto, precio y referencia para agilizar la atención.</p>
+          </details>
+          <details class="faq-item" data-reveal>
+            <summary>¿Manejan envíos?</summary>
+            <p>La estructura del sitio está lista para comunicar entrega inmediata y coordinar envíos locales o nacionales con el cliente.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="./index.html" class="brand" data-brand aria-label="Aurelia Hilo y Oro"></a>
+          <p>Vitrina digital para una marca de pulseras tejidas con detalles dorados, estética limpia y enfoque directo en conversión por WhatsApp.</p>
+        </div>
+        <div>
+          <h3>Navegación</h3>
+          <p><a href="#productos">Más vendidos</a></p>
+          <p><a href="#confianza">Confianza</a></p>
+          <p><a href="#faq">Preguntas frecuentes</a></p>
+        </div>
+        <div>
+          <h3>Redes</h3>
+          <div class="social-links">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://wa.me/573001234567" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copy">© <span data-current-year></span> <span data-brand-name></span>. Todos los derechos reservados.</div>
+    </div>
+  </footer>
+</body>
+</html>
