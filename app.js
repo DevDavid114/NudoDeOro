@@ -116,7 +116,7 @@ function createProductCard(product) {
   return `
     <article class="product-card" data-reveal>
       <a href="./producto.html?id=${product.id}" aria-label="Ver detalle de ${product.name}">
-        <img src="${product.image}" alt="${product.name}" width="1100" height="1100" loading="lazy" decoding="async">
+        <img src="${product.image}" alt="${product.name}" width="900" height="1100" loading="lazy" decoding="async" style="object-fit: contain;" >
       </a>
       <div class="product-body">
         <div>
