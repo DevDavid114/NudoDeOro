@@ -13,7 +13,7 @@ const products = [
   },
   {
     id: 'linaje-real',
-    name: 'Pulsera Linaje Real',
+    name: 'Linaje Real',
     price: '$87.000 COP',
     shortDescription: '2 balines 5mm de Oro Laminado 18k, 1 Dije Rolex de Oro Laminado, hilo negro y tejido de alta resistencia, cierre corredizo.',
     fullDescription: 'Más que un accesorio, es una declaración de identidad. Perfecta para el cliente que busca una joya con peso visual y un acabado de alta gama.',
