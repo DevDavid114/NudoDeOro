@@ -20,67 +20,67 @@ const products = [
     image: 'https://nudo-de-oro.duckdns.org/uploads/prod-1776650438518.jpeg',
     bestSeller: true,
     tags: ['Personalizable', 'Oro Laminado 18k', 'Ajustable']
-  },
-  {
-    id: 'esencia-clasica',
-    name: 'Pulsera Esencia Clásica',
-    price: '$132.000 COP',
-    shortDescription: '2 balines 4mm 18k, 2 neopreno vino tinto y nudo premium.',
-    fullDescription: 'Diseño clásico para quienes prefieren una combinación sobria y refinada. Conserva el protagonismo del oro real con un tejido firme y detalles discretos.',
-    image: 'https://picsum.photos/seed/esencia-bracelet/900/1100',
-    bestSeller: true,
-    tags: ['Clásica', 'Oro real', 'Regalo ideal']
-  },
-  {
-    id: 'brisa-elegante',
-    name: 'Pulsera Brisa Elegante',
-    price: '$179.000 COP',
-    shortDescription: '4 balines 4mm 18k, hilo marfil y tejido doble.',
-    fullDescription: 'Una referencia más protagonista, con mayor brillo y una lectura visual sofisticada. Funciona muy bien como pieza especial o como detalle para ocasión importante.',
-    image: 'https://picsum.photos/seed/brisa-bracelet/900/1100',
-    bestSeller: true,
-    tags: ['Premium', 'Tejido doble', 'Brillo sutil']
-  },
-  {
-    id: 'alma-personalizada',
-    name: 'Pulsera Alma Personalizada',
-    price: '$154.000 COP',
-    shortDescription: '2 balines 4mm 18k, color de hilo a elección y ajuste manual.',
-    fullDescription: 'Pensada para pedidos personalizados. El cliente puede elegir tono del hilo y estilo general manteniendo la elegancia del acabado artesanal.',
-    image: 'https://picsum.photos/seed/alma-bracelet/900/1100',
-    bestSeller: false,
-    tags: ['Personalizable', 'Oro 18K', 'Hecha a mano']
-  },
-  {
-    id: 'nudo-real',
-    name: 'Pulsera Nudo Real',
-    price: '$188.000 COP',
-    shortDescription: '5 balines 4mm 18k, tejido grafito y acabado reforzado.',
-    fullDescription: 'Diseñada para quienes quieren una pulsera más marcada sin perder elegancia. Su tejido reforzado aporta durabilidad y una apariencia impecable.',
-    image: 'https://picsum.photos/seed/nudo-real/900/1100',
-    bestSeller: false,
-    tags: ['Reforzada', 'Entrega rápida', 'Unisex']
-  },
-  {
-    id: 'destello-suave',
-    name: 'Pulsera Destello Suave',
-    price: '$139.000 COP',
-    shortDescription: '1 balín 6mm 18k, hilo beige y nudo corredizo.',
-    fullDescription: 'Perfecta para una propuesta delicada y contemporánea. El balín central se convierte en el foco visual y resalta con un look muy limpio.',
-    image: 'https://picsum.photos/seed/destello-bracelet/900/1100',
-    bestSeller: false,
-    tags: ['Minimal', 'Ligera', 'Oro real']
-  },
-  {
-    id: 'legado-oro',
-    name: 'Pulsera Legado Oro',
-    price: '$205.000 COP',
-    shortDescription: '6 balines 4mm 18k, hilo negro y composición de lujo.',
-    fullDescription: 'Una referencia con más presencia y un carácter premium. Mantiene la línea minimalista de la marca con mayor protagonismo de los balines de oro.',
-    image: 'https://picsum.photos/seed/legado-bracelet/900/1100',
-    bestSeller: false,
-    tags: ['Lujo', 'Más balines', 'Colección especial']
   }
+  // {
+  //   id: 'esencia-clasica',
+  //   name: 'Pulsera Esencia Clásica',
+  //   price: '$132.000 COP',
+  //   shortDescription: '2 balines 4mm 18k, 2 neopreno vino tinto y nudo premium.',
+  //   fullDescription: 'Diseño clásico para quienes prefieren una combinación sobria y refinada. Conserva el protagonismo del oro real con un tejido firme y detalles discretos.',
+  //   image: 'https://picsum.photos/seed/esencia-bracelet/900/1100',
+  //   bestSeller: true,
+  //   tags: ['Clásica', 'Oro real', 'Regalo ideal']
+  // },
+  // {
+  //   id: 'brisa-elegante',
+  //   name: 'Pulsera Brisa Elegante',
+  //   price: '$179.000 COP',
+  //   shortDescription: '4 balines 4mm 18k, hilo marfil y tejido doble.',
+  //   fullDescription: 'Una referencia más protagonista, con mayor brillo y una lectura visual sofisticada. Funciona muy bien como pieza especial o como detalle para ocasión importante.',
+  //   image: 'https://picsum.photos/seed/brisa-bracelet/900/1100',
+  //   bestSeller: true,
+  //   tags: ['Premium', 'Tejido doble', 'Brillo sutil']
+  // },
+  // {
+  //   id: 'alma-personalizada',
+  //   name: 'Pulsera Alma Personalizada',
+  //   price: '$154.000 COP',
+  //   shortDescription: '2 balines 4mm 18k, color de hilo a elección y ajuste manual.',
+  //   fullDescription: 'Pensada para pedidos personalizados. El cliente puede elegir tono del hilo y estilo general manteniendo la elegancia del acabado artesanal.',
+  //   image: 'https://picsum.photos/seed/alma-bracelet/900/1100',
+  //   bestSeller: false,
+  //   tags: ['Personalizable', 'Oro 18K', 'Hecha a mano']
+  // },
+  // {
+  //   id: 'nudo-real',
+  //   name: 'Pulsera Nudo Real',
+  //   price: '$188.000 COP',
+  //   shortDescription: '5 balines 4mm 18k, tejido grafito y acabado reforzado.',
+  //   fullDescription: 'Diseñada para quienes quieren una pulsera más marcada sin perder elegancia. Su tejido reforzado aporta durabilidad y una apariencia impecable.',
+  //   image: 'https://picsum.photos/seed/nudo-real/900/1100',
+  //   bestSeller: false,
+  //   tags: ['Reforzada', 'Entrega rápida', 'Unisex']
+  // },
+  // {
+  //   id: 'destello-suave',
+  //   name: 'Pulsera Destello Suave',
+  //   price: '$139.000 COP',
+  //   shortDescription: '1 balín 6mm 18k, hilo beige y nudo corredizo.',
+  //   fullDescription: 'Perfecta para una propuesta delicada y contemporánea. El balín central se convierte en el foco visual y resalta con un look muy limpio.',
+  //   image: 'https://picsum.photos/seed/destello-bracelet/900/1100',
+  //   bestSeller: false,
+  //   tags: ['Minimal', 'Ligera', 'Oro real']
+  // },
+  // {
+  //   id: 'legado-oro',
+  //   name: 'Pulsera Legado Oro',
+  //   price: '$205.000 COP',
+  //   shortDescription: '6 balines 4mm 18k, hilo negro y composición de lujo.',
+  //   fullDescription: 'Una referencia con más presencia y un carácter premium. Mantiene la línea minimalista de la marca con mayor protagonismo de los balines de oro.',
+  //   image: 'https://picsum.photos/seed/legado-bracelet/900/1100',
+  //   bestSeller: false,
+  //   tags: ['Lujo', 'Más balines', 'Colección especial']
+  // }
 ];
 
 const brand = {
