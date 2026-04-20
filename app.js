@@ -2,24 +2,24 @@ const WHATSAPP_NUMBER = '573175491833';
 
 const products = [
   {
-    id: 'aurora-18k',
-    name: 'Pulsera Aurora 18K',
-    price: '$145.000 COP',
-    shortDescription: '2 balines 4mm 18k, 2 neopreno negro y tejido ajustable.',
+    id: 'trilogia-dorada',
+    name: 'Trilogía Dorada',
+    price: '$380.000 COP',
+    shortDescription: '3 balines 5mm 18k, 2 neopreno negro y tejido ajustable.',
     fullDescription: 'Una referencia delicada pensada para uso diario. Mezcla hilo tejido de alta resistencia con balines de oro de 18 quilates para un acabado limpio, elegante y fácil de combinar.',
-    image: 'https://picsum.photos/seed/aurora-bracelet/900/1100',
+    image: 'https://nudo-de-oro.duckdns.org/uploads/prod-1776650135928.jpeg',
     bestSeller: true,
     tags: ['Más vendido', 'Oro 18K', 'Ajustable']
   },
   {
-    id: 'luna-dorada',
-    name: 'Pulsera Luna Dorada',
-    price: '$168.000 COP',
-    shortDescription: '3 balines 4mm 18k, hilo arena y cierre corredizo.',
-    fullDescription: 'Una pieza minimalista con presencia sutil. Ideal para clientes que buscan una joya fina con tonos cálidos y un tejido suave que se adapta con comodidad a la muñeca.',
-    image: 'https://picsum.photos/seed/luna-bracelet/900/1100',
+    id: 'linaje-real',
+    name: 'Pulsera Linaje Real',
+    price: '$87.000 COP',
+    shortDescription: '2 balines 5mm de Oro Laminado 18k, 1 Dije Rolex de Oro Laminado, hilo negro y tejido de alta resistencia, cierre corredizo.',
+    fullDescription: 'Más que un accesorio, es una declaración de identidad. Perfecta para el cliente que busca una joya con peso visual y un acabado de alta gama.',
+    image: 'https://nudo-de-oro.duckdns.org/uploads/prod-1776650438518.jpeg',
     bestSeller: true,
-    tags: ['Entrega inmediata', 'Tejido fino', 'Ajustable']
+    tags: ['Personalizable', 'Oro Laminado 18k', 'Ajustable']
   },
   {
     id: 'esencia-clasica',
