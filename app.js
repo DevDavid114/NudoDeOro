@@ -20,7 +20,7 @@ const products = [
     image: 'https://nudo-de-oro.duckdns.org/uploads/prod-1776650438518.jpeg',
     bestSeller: true,
     tags: ['Personalizable', 'Oro Laminado 18k', 'Ajustable']
-  }
+  },
   {
     id: 'blanca-eterna',
     name: 'Blanca Eterna',
