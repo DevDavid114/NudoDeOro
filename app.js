@@ -21,46 +21,46 @@ const products = [
     bestSeller: true,
     tags: ['Personalizable', 'Oro Laminado 18k', 'Ajustable']
   }
-  // {
-  //   id: 'esencia-clasica',
-  //   name: 'Pulsera Esencia Clásica',
-  //   price: '$132.000 COP',
-  //   shortDescription: '2 balines 4mm 18k, 2 neopreno vino tinto y nudo premium.',
-  //   fullDescription: 'Diseño clásico para quienes prefieren una combinación sobria y refinada. Conserva el protagonismo del oro real con un tejido firme y detalles discretos.',
-  //   image: 'https://picsum.photos/seed/esencia-bracelet/900/1100',
-  //   bestSeller: true,
-  //   tags: ['Clásica', 'Oro real', 'Regalo ideal']
-  // },
-  // {
-  //   id: 'brisa-elegante',
-  //   name: 'Pulsera Brisa Elegante',
-  //   price: '$179.000 COP',
-  //   shortDescription: '4 balines 4mm 18k, hilo marfil y tejido doble.',
-  //   fullDescription: 'Una referencia más protagonista, con mayor brillo y una lectura visual sofisticada. Funciona muy bien como pieza especial o como detalle para ocasión importante.',
-  //   image: 'https://picsum.photos/seed/brisa-bracelet/900/1100',
-  //   bestSeller: true,
-  //   tags: ['Premium', 'Tejido doble', 'Brillo sutil']
-  // },
-  // {
-  //   id: 'alma-personalizada',
-  //   name: 'Pulsera Alma Personalizada',
-  //   price: '$154.000 COP',
-  //   shortDescription: '2 balines 4mm 18k, color de hilo a elección y ajuste manual.',
-  //   fullDescription: 'Pensada para pedidos personalizados. El cliente puede elegir tono del hilo y estilo general manteniendo la elegancia del acabado artesanal.',
-  //   image: 'https://picsum.photos/seed/alma-bracelet/900/1100',
-  //   bestSeller: false,
-  //   tags: ['Personalizable', 'Oro 18K', 'Hecha a mano']
-  // },
-  // {
-  //   id: 'nudo-real',
-  //   name: 'Pulsera Nudo Real',
-  //   price: '$188.000 COP',
-  //   shortDescription: '5 balines 4mm 18k, tejido grafito y acabado reforzado.',
-  //   fullDescription: 'Diseñada para quienes quieren una pulsera más marcada sin perder elegancia. Su tejido reforzado aporta durabilidad y una apariencia impecable.',
-  //   image: 'https://picsum.photos/seed/nudo-real/900/1100',
-  //   bestSeller: false,
-  //   tags: ['Reforzada', 'Entrega rápida', 'Unisex']
-  // },
+  {
+    id: 'blanca-eterna',
+    name: 'Blanca Eterna',
+    price: '$65.000 COP',
+    shortDescription: 'Dije corazón de oro laminado, 2 balines de oro laminado #5.',
+    fullDescription: 'Diseño clásico para quienes prefieren una combinación sobria y refinada. Conserva el protagonismo del oro con un tejido firme y detalles discretos.',
+    image: 'https://nudo-de-oro.duckdns.org/uploads/prod-1778359461601.png',
+    bestSeller: true,
+    tags: ['Clásica', 'Oro laminado', 'Regalo ideal']
+  },
+  {
+    id: 'encanto-rojo',
+    name: 'Encanto Rojo',
+    price: '$105.000 COP',
+    shortDescription: 'Dije corazón de nácar con borde de oro laminado, 2 balines de oro laminado #5.',
+    fullDescription: 'Una referencia más protagonista, con mayor brillo y una lectura visual sofisticada. Funciona muy bien como pieza especial o como detalle para ocasión importante.',
+    image: 'https://nudo-de-oro.duckdns.org/uploads/prod-1778359210890.png',
+    bestSeller: true,
+    tags: ['Premium', 'Tejido doble', 'Brillo sutil']
+  },
+  {
+    id: 'onix-imperial',
+    name: 'Onix Imperial',
+    price: '$277.000 COP',
+    shortDescription: '4 balines de oro 18k #4.',
+    fullDescription: 'Pensada para pedidos personalizados. El cliente puede elegir tono del hilo y estilo general manteniendo la elegancia del acabado artesanal.',
+    image: 'https://nudo-de-oro.duckdns.org/uploads/prod-1778358823880.png',
+    bestSeller: false,
+    tags: ['Personalizable', 'Oro laminado', 'Hecha a mano']
+  },
+  {
+    id: 'trebol-aureo',
+    name: 'Trébol Áureo',
+    price: '$135.000 COP',
+    shortDescription: '4 balines de oro laminado #4, 2 balines de oro laminado #6, Dije Van Cleef blanco de oro laminado.',
+    fullDescription: 'Diseñada para quienes quieren una pulsera más marcada sin perder elegancia. Su tejido reforzado aporta durabilidad y una apariencia impecable.',
+    image: 'https://nudo-de-oro.duckdns.org/uploads/prod-1778345858573.png',
+    bestSeller: false,
+    tags: ['Oro 18k', 'Entrega rápida', 'Unisex']
+  },
   // {
   //   id: 'destello-suave',
   //   name: 'Pulsera Destello Suave',
